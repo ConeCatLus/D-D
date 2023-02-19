@@ -1,0 +1,99 @@
+h1, p {
+  text-align: left;
+  font-weight: bold;
+  color: #555;
+  margin: 0px;
+}
+
+.parent {
+  display: flex;
+}
+
+.child-pane-left, .child-pane-right {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  width: 97%;
+  text-align: center;
+  margin: 1rem 2rem;
+  padding: 0px 0px 20px 0px;
+  box-shadow: 2px 2px 5px #777;
+  border-radius: 10px;
+}
+
+.child-pane-header {
+  background-color: #555;
+  color: #fff;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 15px 0px;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #a09a9a;
+  padding: 10px;
+  max-width: 500px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.display-characters {
+  display: flex=1;
+  width: 500px;
+  text-align: center;
+  margin: 3rem 3rem;
+  padding: 50px;
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px #777;
+  border-radius: 10px;
+}
+
+[id^="characterButton-"] {
+  text-align: left;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #777;
+  cursor: pointer;
+}
+
+[id^="characterDetails-"] {
+  display: none;
+  background: #bdbdbd;
+  text-align: left;
+  border: 1px solid #777;
+}
+
+select, input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 1% 5% 1% 5%;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #777;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ccc;
+  color: #fff;
+}

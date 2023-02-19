@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dungeons and Dragons</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/CharacterCreator.css"> 
+  </head>
+
+  <body>
+  <h1>D&D Add your worriors!</h1>
+  <div class="parent">
+    <div class="child-pane-left">
+      <div class="child-pane-header">
+        <div class="header-text">D&D Character Creator</div>
+      </div>
+      <label>Name:</label>
+      <input type="text" id="name" name="name">
+      <br><br>
+      <label>Gender:</label>
+      <select id="gender">
+        <option value="">None</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <br><br>
+      <label>Race:</label>
+      <select id="race">
+        <option value="">Select race</option>
+        <option value="human">Human</option>
+        <option value="elf">Elf</option>
+        <option value="dwarf">Dwarf</option>
+      </select>
+      <br>
+      <text id="raceDescription" class="description"> </text>
+      <br><br>
+      <label>Class:</label>
+      <select id="class">
+        <option value="">Select class</option>
+        <option value="warrior">Warrior</option>
+        <option value="wizard">Wizard</option>
+        <option value="rogue">Rogue</option>
+      </select>
+      <br>
+      <text id="classDescription" class="description"> </text>
+      <br><br>
+      <button id="addButton">Add character to party</button>
+    </div>
+      <div class="child-pane-right">
+        <div class="child-pane-header">
+          <div class="header-text">Your characters</div>
+        </div>
+        <div id="characters"></div>
+      </div>
+  </div>
+  <div class="parent">
+    <div class="child-pane-right">
+      <div class="child-pane-header">
+        <div class="header-text">Select your adventure</div>
+      </div>
+      <div class="parent">
+        <select id="quest">
+          <option value="">Select quest</option>
+        </select>
+        <select id="location">
+          <option value="">Select location</option>
+        </select>
+        <select id="villain">
+          <option>Select villian</option>
+        </select>
+      </div>
+    <div style="text-align:center">
+      <button id="randomQuest">Random quest</button>
+    </div>
+  </div>
+  </div>
+  <div style="text-align:center">
+    <button id="startGame">Start Game</button>
+  </div>
+  </body>
+  <script src="../JS/CharacterCreator.js"></script>
+  <script src="../JS/CharacterClass.js"></script>
+</html>

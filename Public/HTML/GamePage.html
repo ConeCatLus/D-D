@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/GamePage.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/CharacterCreator.css">
+        <title>Game Page</title>
+    </head>
+    <body>
+    <div class="parent">
+        <div class="child-pane-left">
+            <div class="child-pane-header">
+                <div class="header-text">Your characters</div>
+            </div>
+            <div id="characters"></div>
+        </div>
+        <div class="child-pane-right">
+            <div class="child-pane-header">
+                <div class="header-text">Game terminal</div>
+            </div>
+            <div class="game-log-window">
+                <div class="game-log"></div>
+            </div>
+            <br>
+            <div class="game-log-input">
+                <input type="text" placeholder="Enter command...">
+            </div>
+        </div>
+    </div>
+        <script src="../JS/GamePage.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="../JS/PlayQuest.js"></script>
+    </body>
+
+</html>

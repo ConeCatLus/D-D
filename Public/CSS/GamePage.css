@@ -1,0 +1,29 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.game-log-window{
+    display: flex;
+    border: 1px solid #777;
+    padding: 10px;
+    margin: 20px;
+    min-height: 400px;
+    overflow: scroll;
+}
+
+#game-input {
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+}
+
+.game-log-input {
+    display: flex;
+}
+
+.child-pane-left, .child-pane-right { 
+    min-height: 500px;
+}
